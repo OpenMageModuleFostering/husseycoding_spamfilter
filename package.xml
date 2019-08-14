@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>HusseyCoding_SpamFilter</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Disable third party admin notifications but still be notified by Magento.</summary>
+    <description>Third party extension developers far too often exploit the admin notification system to insert sales, and other spam messages into your admin panel. It is a frustrating, and often daily annoyance for many store owners to login into admin at the start of the working day only to be greeted with yet another sales related spam message in the notification inbox.&#xD;
+&#xD;
+You can of course disable the Notifications module altogether, but then you also do not receive legitimate notifications from Magento about important updates and releases&#xD;
+&#xD;
+Spam Filter disables the ability of third party sources to add notifications to admin, but still allows notices originating from Magento to be added.</description>
+    <notes> Checked 1.8.1.0 compatibility</notes>
+    <authors><author><name>Hussey Coding</name><user>husseycoding</user><email>info@husseycoding.co.uk</email></author></authors>
+    <date>2015-08-26</date>
+    <time>08:21:59</time>
+    <contents><target name="magecommunity"><dir name="HusseyCoding"><dir name="SpamFilter"><dir name="etc"><file name="adminhtml.xml" hash="8e92f61e8066a2cd15b953459d9c7abf"/><file name="config.xml" hash="5cdd8a07533cf51058e4a0f17860cea0"/><file name="system.xml" hash="e76ca0618a0ad3f87deca0fe723a8493"/></dir><dir name="Helper"><file name="Data.php" hash="061a35779378482a4ee6b2742f837ff3"/></dir><dir name="Model"><file name="AdminNotificationInbox.php" hash="bc5638196ea4c430f0532eea03e8b68e"/></dir></dir><dir name="Common"><dir name="etc"><file name="system.xml" hash="6c9ba9f227b9adfc9abf97f17b46fdbf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="HusseyCoding_SpamFilter.xml" hash="ed9d2379b0d0c50e7da762963515ebdb"/><file name="HusseyCoding_Common.xml" hash="2a0b4d683045f3ddec3389fd921a276b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
