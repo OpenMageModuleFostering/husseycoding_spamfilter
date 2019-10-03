@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/HusseyCoding_SpamFilter",
+    "name": "openmage-module-fostering\/husseycoding_spamfilter",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Disable third party admin notifications but still be notified by Magento.",
     "authors": [
